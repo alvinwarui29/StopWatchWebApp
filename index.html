@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Stop Watch App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script src="stopwatch.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="title">StopWatch</div>
+
+
+        <div id="lap">
+            <span id="lapminute">00:</span>
+            <span id="lapsecond">00:</span>
+            <span id="lapcentisecond">00</span>
+        </div>
+
+        <div id="time">
+            <span id="timeminute">00:</span>
+            <span id="timesecond">00:</span>
+            <span id="timecentisecond">00</span>
+        </div>
+
+        <div class="row" id="controlsbox">
+            <div class="col-2 offset-4">
+                <div id="startbutton" class="control">Start</div>
+                <div id="stopbutton" class="control">Stop</div>
+                <div id="resumebutton" class="control">Resume</div>
+            </div>
+            <div class="col-2">
+                <div id="lapbutton" class="control">Lap</div>
+                <div id="resetbutton" class="control">Reset</div>
+
+            </div>
+        </div>
+        <div id="lapstimes"></div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

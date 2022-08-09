@@ -1,0 +1,62 @@
+body {
+    background: url("images/pexels-fabian-reitmeier-707915.jpg") center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+#title {
+    text-align: center;
+    font-size: 7vw;
+}
+
+#lap {
+    text-align: right;
+    font-size: 4vw;
+}
+
+#time {
+    text-align: center;
+    font-size: 10vw;
+}
+
+.controlsbox {
+    margin-bottom: 50px;
+}
+
+.control {
+    color: #fff;
+    text-align: center;
+    border-radius: 100px;
+    height: 10vw;
+    padding: 20% 0;
+    width: 10vw;
+    font-size: 2.5vw;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.control:active {
+    background-color: white;
+    color: orange;
+}
+
+#lapstimes {
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.lup {
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+
+.luptitle {
+    font-size: 1.5em;
+    float: left;
+}
+
+.luptime {
+    font-size: 2em;
+    float: right;
+}
